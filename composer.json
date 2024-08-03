@@ -1,0 +1,34 @@
+{
+  "name": "cbenjafield/aviary",
+  "description": "An implementation of the Aviary API for Laravel",
+  "keywords": ["laravel", "aviary", "sms"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Charlie Benjafield",
+      "email": "me@cbenjafield.com",
+      "homepage": "http://cbenjafield.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/contracts": "^10.10.0|^11.0",
+    "illuminate/support": "^10.10.0|^11.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.3",
+    "orchestra/testbench": "^9.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cbenjafield\\Aviary\\": "src/",
+      "Cbenjafield\\Aviary\\Tests\\": "tests/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
