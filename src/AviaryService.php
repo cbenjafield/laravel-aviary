@@ -54,7 +54,7 @@ class AviaryService
     {
         $response = $this->http()->post('/v1/messages', [
             'recipient' => $recipient,
-            'message' => $body,
+            'body' => $body,
         ]);
 
         return $response->json();
